@@ -1,1 +1,1 @@
-# NPU-based-Multimodal-Walking-Assistant-
+# NPU-based-Multimodal-Walking-Assistant
