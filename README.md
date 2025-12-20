@@ -13,7 +13,7 @@
 ```
 
 
-### Execution Enviroment**
+### Execution Enviroment
 - NPU: 리벨리온(Rebellions) ATOM+ CA22
 - Gradio 기반 웹 인터페이스 (브라우저 접근으로 모바일 환경 사용 가능)
 
