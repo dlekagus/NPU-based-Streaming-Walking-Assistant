@@ -48,11 +48,9 @@ optimum-rbln/
  ```bash
 python3 compile.py
 python3 run.py
+# 실행 완료 시, 터미널에 Gradio 링크가 출력되며
+# 해당 링크를 통해 어플리케이션 테스트 가능 (데스크톱 혹은 모바일 Chrome 환경 권장)
 ```
-
-
-3) 어플리케이션 접속
-- 실행 완료 시 터미널에 Gradio 링크가 출력되며, 해당 링크를 통해 어플리케이션 테스트 가능 (데스크톱 혹은 모바일 Chrome 환경 권장)
 
 
 ###  Reference
