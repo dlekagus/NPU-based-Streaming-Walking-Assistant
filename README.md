@@ -7,6 +7,9 @@
 <div align="center">
   <img width="408" height="365" alt="Image" src="https://github.com/user-attachments/assets/4bc40aff-1a55-44e7-9cf3-0c308b172563" />
   <img width="199" height="347" alt="Image" src="https://github.com/user-attachments/assets/d0dbcfc7-f019-44cf-a966-ffac44b0ff9e" />
+
+  
+  (좌) 어플리케이션 실행 예시 (우) 어플리케이션 UI
 </div>
 
 
