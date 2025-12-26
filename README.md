@@ -4,15 +4,6 @@
 #### NPU 기반 멀티모달 모델을 활용한 시각장애인 보행 보호 어플리케이션 구현 및 성능 최적화
 
 
-<div align="center">
-  <img width="408" height="365" alt="Image" src="https://github.com/user-attachments/assets/4bc40aff-1a55-44e7-9cf3-0c308b172563" />
-  <img width="199" height="347" alt="Image" src="https://github.com/user-attachments/assets/d0dbcfc7-f019-44cf-a966-ffac44b0ff9e" />
-
-  
-  (좌) 어플리케이션 실행 예시 (우) 어플리케이션 UI
-</div>
-
-
 본 프로젝트는 NPU 환경에서 멀티모달 모델을 실행하여 시각장애인의 보행 안전을 지원하는 어플리케이션이다. 카메라 입력으로부터 실시간 영상 정보를 분석하거나 음성(Speech-to-Text)으로 받은 사용자 질문에 응답을 생성하고, 이를 음성(Text-to-Speech)으로 변환하여 제공한다. 
 
 
@@ -22,6 +13,14 @@ Rebellions ATOM+ CA22 NPU를 기반으로 멀티모달 모델을 컴파일 및 �
 ### Demo Video
 - https://drive.google.com/file/d/1iEMoR6P6R8GAUFzhC9rfxaTnILFsFPSk/view?usp=sharing
 
+
+<div align="center">
+  <img width="408" height="365" alt="Image" src="https://github.com/user-attachments/assets/4bc40aff-1a55-44e7-9cf3-0c308b172563" />
+  <img width="199" height="347" alt="Image" src="https://github.com/user-attachments/assets/d0dbcfc7-f019-44cf-a966-ffac44b0ff9e" />
+
+  
+  (좌) 어플리케이션 실행 예시 (우) 어플리케이션 UI
+</div>
 
 ### Repository Structure
 ```text
