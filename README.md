@@ -31,4 +31,5 @@ python3 run.py
 
 ###  Reference
 - [LLaVA-Onevision (paper): Multimodal Model used in this system] (https://arxiv.org/abs/2408.03326)
+- [Rebellions SDK] (https://github.com/rebellions-sw/optimum-rbln)
 - [RealtimeTTS: Open-source Text-to-Speech library] (https://github.com/KoljaB/RealtimeTTS/tree/master)
