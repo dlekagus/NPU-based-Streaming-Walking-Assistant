@@ -5,7 +5,8 @@
 
 
 <div align="center">
-  <img width="227" height="203" alt="Image" src="https://github.com/user-attachments/assets/4bc40aff-1a55-44e7-9cf3-0c308b172563" />
+  <img width="408" height="365" alt="Image" src="https://github.com/user-attachments/assets/4bc40aff-1a55-44e7-9cf3-0c308b172563" />
+  <img width="199" height="347" alt="Image" src="https://github.com/user-attachments/assets/d0dbcfc7-f019-44cf-a966-ffac44b0ff9e" />
 </div>
 
 
@@ -19,6 +20,7 @@ Rebellions ATOM+ CA22 NPU를 기반으로 멀티모달 모델을 컴파일 및 �
 - https://drive.google.com/file/d/1iEMoR6P6R8GAUFzhC9rfxaTnILFsFPSk/view?usp=sharing
 
 
+### Repository Structure
 ```text
 ├── model/                            # NPU compile을 위한 모델 파일
 │   ├── __init__.py
@@ -29,7 +31,6 @@ Rebellions ATOM+ CA22 NPU를 기반으로 멀티모달 모델을 컴파일 및 �
 ├── run.py                            # 최종 시스템 실행 스크립트
 └── README.md
 ```
-
 
 ###  Run Command
 ```bash
