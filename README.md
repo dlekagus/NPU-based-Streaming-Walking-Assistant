@@ -13,14 +13,16 @@
 ```
 
 
-### Execution Enviroment
+### Execution Environment
 - NPU: 리벨리온(Rebellions) ATOM+ CA22
 - Gradio 기반 웹 인터페이스 (브라우저 접근으로 모바일 환경 사용 가능)
 
 
 ###  Run Command
 ```bash
-# Rebellions SDK 사전 설치 필요 
+# Rebellions SDK 사전 설치 필요
+# model 폴더 다운로드 후, Rebellions SDK 폴더 내로 경로 조정 필요
+# e.g. optimum-rbln/src/optimum/rbln/transformers/models/model/...
 python3 compile.py
 python3 run.py
 # 실행 완료 시, 터미널에 Gradio 링크가 출력되며
