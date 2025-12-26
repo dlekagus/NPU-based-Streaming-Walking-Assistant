@@ -57,6 +57,7 @@ class TimeWrapper:
         return output
 
 # --- 모델 로딩 (Llava) ---
+# 각자 디렉토리 구조에 맞게 경로 수정 필요
 model_dir = "/home/work/npu2/optimum-rbln/src/compiled-llava-ov-7b-chat-hf-batch4/" # 컴파일한 llava-ov 파일 경로 지정
 processor = AutoProcessor.from_pretrained(model_dir)
 tokenizer = AutoTokenizer.from_pretrained(model_dir)
