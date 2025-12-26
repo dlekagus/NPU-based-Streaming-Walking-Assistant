@@ -12,9 +12,6 @@ import soundfile as sf
 import tempfile
 import os
 
-# 외부 경량 TTS 모델 로딩
-from transformers import pipeline as hf_pipeline
-
 # 성능 최적화: frame selection
 def selection_difffp(frames, k=16, resize=32):
     if len(frames) <= k:
