@@ -22,26 +22,37 @@ Rebellions ATOM+ CA22 NPU를 기반으로 멀티모달 모델을 컴파일 및 �
   (좌) 어플리케이션 실행 예시 (우) 어플리케이션 UI
 </div>
 
-### Repository Structure
+
+###  How to Run
+
+
+1) 경로 setting
 ```text
-├── model/                            # NPU compile을 위한 모델 파일
-│   ├── __init__.py
-│   ├── configuration_llava_ov.py
-│   └── modeling_llava_ov.py
-│
-├── compile.py                        # NPU compile 스크립트
-├── run.py                            # 최종 시스템 실행 스크립트
-└── README.md
+optimum-rbln/
+└── src/                               # Rebellions SDK 사전에 설치 필요
+    ├── optimum/
+        └── rbln/
+            └── transformers/
+                └── models/
+                    └── model/         # NPU compile을 위한 멀티모달 모델 파일
+                        ├── __init__.py
+                        ├── configuration_llava_ov.py
+                        └── modeling_llava_ov.py
+    │
+    ├── compile.py                     # NPU compile 스크립트
+    └── run.py                         # 최종 시스템 실행 스크립트
 ```
 
-###  Run Command
-```bash
-# Rebellions SDK 사전 설치 필요
+
+2) Command for Compile and Run
+ ```bash
 python3 compile.py
 python3 run.py
-# 실행 완료 시, 터미널에 Gradio 링크가 출력되며
-# 해당 링크를 통해 어플리케이션 테스트 가능 (모바일 Chrome 환경 권장)
 ```
+
+
+3) 어플리케이션 접속
+- 실행 완료 시 터미널에 Gradio 링크가 출력되며, 해당 링크를 통해 어플리케이션 테스트 가능 (데스크톱 혹은 모바일 Chrome 환경 권장)
 
 
 ###  Reference
