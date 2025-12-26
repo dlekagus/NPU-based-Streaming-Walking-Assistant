@@ -2,6 +2,7 @@ import os
 from optimum.rbln import RBLNLlavaOnevisionForConditionalGeneration
 
 # Hugging Face 형식의 사전 학습된 LLaVA-OneVision 모델 경로
+# 각자 디렉토리 구조에 맞게 경로 수정 필요
 pretrained_model = "/home/work/npu2/optimum-rbln/src/llava-onevision-qwen2-7b-ov-chat-hf"
 
 # RBLN NPU용 모델 로딩 및 컴파일
