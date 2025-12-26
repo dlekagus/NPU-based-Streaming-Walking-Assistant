@@ -10,6 +10,10 @@
 Rebellions ATOM+ CA22 NPU를 기반으로 멀티모달 모델을 컴파일 및 실행하며, Gradio 기반 웹 인터페이스를 통해 데스크톱 및 모바일 환경에서 테스트할 수 있다. 
 
 
+### Demo Video
+- https://drive.google.com/file/d/1iEMoR6P6R8GAUFzhC9rfxaTnILFsFPSk/view?usp=sharing
+
+
 ```text
 ├── model/                            # NPU compile을 위한 모델 파일
 │   ├── __init__.py
